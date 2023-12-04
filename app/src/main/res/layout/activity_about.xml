@@ -1,0 +1,65 @@
+<!-- activity_about.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/office1">
+
+    <RelativeLayout
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#2196F3">
+
+        <!-- Title TextView -->
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="160dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:text="About"
+            android:textColor="#ffffff" />
+
+        <!-- ImageView on Right -->
+        <!-- Add ImageView code here if needed -->
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:orientation="vertical"
+        android:background="#94ECECEC"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tvAboutTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="About Our App"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/tvAboutDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"
+            android:text="Empowering students on their career journey, our Training and Placement app is a comprehensive platform designed for success. Seamlessly monitoring college drives, it offers a dynamic learning environment where students can acquire and refine new skills. The app features specialized sections including profiles, announcements, schedules, and recruitment opportunities. Elevating the preparation process, mock exams enable students to assess their progress. With a user-friendly interface, our app fosters holistic development, ensuring students are well-equipped for the professional landscape. Stay ahead, stay prepared – embark on your career path with confidence, guided by our Training and Placement app."
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <!-- Action Button (e.g., Back or Close) -->
+    <!-- Add action button code here if needed -->
+
+</RelativeLayout>

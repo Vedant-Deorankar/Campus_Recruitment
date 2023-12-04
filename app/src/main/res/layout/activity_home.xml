@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Title Bar -->
+    <RelativeLayout
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#2196F3">
+
+        <!-- Title TextView -->
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="50dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:text="Dashboard"
+            android:textColor="#ffffff" />
+
+        <!-- ImageView on Right -->
+        <ImageView
+            android:id="@+id/titleBarImageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/vedant"
+            android:background="@drawable/rounded_black_box"
+            android:contentDescription="Your Image" />
+
+    </RelativeLayout>
+
+    <!-- Grid Layout for Buttons -->
+    <GridLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:rowCount="4"
+        android:padding="16dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:orientation="vertical"
+            android:layout_margin="8dp">
+
+            <ImageButton
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="fill"
+                android:src="@drawable/profile"
+                android:scaleType="fitCenter"
+                android:background="@drawable/rounded_black_box"
+                android:onClick="onButtonClick"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:gravity="center"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+
+        <!-- Button 2 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:orientation="vertical"
+            android:layout_margin="8dp">
+
+            <ImageButton
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="fill"
+                android:src="@drawable/calendar"
+                android:scaleType="fitCenter"
+                android:background="@drawable/rounded_black_box"
+                android:onClick="onButtonClick"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Schedule"
+                android:gravity="center"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <!-- Button 3 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:orientation="vertical"
+            android:layout_margin="8dp">
+
+            <ImageButton
+                android:id="@+id/btn3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="fill"
+                android:src="@drawable/promotion"
+                android:scaleType="fitCenter"
+                android:background="@drawable/rounded_black_box"
+                android:onClick="onButtonClick"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Announcement"
+                android:gravity="center"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <!-- Button 4 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:orientation="vertical"
+            android:layout_margin="8dp">
+
+            <ImageButton
+                android:id="@+id/btn4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="fill"
+                android:src="@drawable/creative"
+                android:scaleType="fitCenter"
+                android:background="@drawable/rounded_black_box"
+                android:onClick="onButtonClick"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tips and Tricks"
+                android:gravity="center"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <!-- Button 5 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:orientation="vertical"
+            android:layout_margin="8dp">
+
+            <ImageButton
+                android:id="@+id/btn5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="fill"
+                android:src="@drawable/recruitment"
+                android:scaleType="fitCenter"
+                android:background="@drawable/rounded_black_box"
+                android:onClick="onButtonClick"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recuitment"
+                android:gravity="center"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <!-- Button 6 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:orientation="vertical"
+            android:layout_margin="8dp">
+
+            <ImageButton
+                android:id="@+id/btn6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="fill"
+                android:src="@drawable/exam"
+                android:scaleType="fitCenter"
+                android:background="@drawable/rounded_black_box"
+                android:onClick="onButtonClick"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Skill Assassment"
+                android:gravity="center"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <!-- Button 7 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:orientation="vertical"
+            android:layout_margin="8dp">
+
+            <ImageButton
+                android:id="@+id/btn7"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="fill"
+                android:src="@drawable/learning"
+                android:scaleType="fitCenter"
+                android:background="@drawable/rounded_black_box"
+                android:onClick="onButtonClick"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Learning"
+                android:gravity="center"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <!-- Button 8 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:orientation="vertical"
+            android:layout_margin="8dp">
+
+            <ImageButton
+                android:id="@+id/btn8"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="fill"
+                android:src="@drawable/about"
+                android:scaleType="fitCenter"
+                android:background="@drawable/rounded_black_box"
+                android:onClick="onButtonClick"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="about"
+                android:gravity="center"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </GridLayout>
+
+    <!-- Your Other Views or Layouts Below the Buttons -->
+
+</RelativeLayout>

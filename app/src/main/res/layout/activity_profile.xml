@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/campusbg"
+    tools:context=".profile">
+
+    <ImageView
+        android:id="@+id/ivProfileImage"
+        android:layout_width="136dp"
+        android:layout_height="136dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:contentDescription="image" />
+
+
+    <TextView
+        android:id="@+id/tvNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name : Vedant Deorankar"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/tvDOBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Date of Birth : 21-04-2001"
+        android:textSize="18dp"
+        android:layout_below="@id/tvNameLabel"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"/>
+
+
+    <TextView
+        android:id="@+id/tvEducationLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Education:"
+        android:textSize="18dp"
+        android:layout_below="@id/tvDOBLabel"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/tvEducation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Master's in Computer Application"
+        android:textSize="18dp"
+        android:layout_below="@id/tvEducationLabel"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/tvMobileNumberLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Mobile Number :  123-456-7890"
+        android:textSize="18dp"
+        android:layout_below="@id/tvEducation"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/tvReligionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Religion :  Hindu"
+        android:textSize="18dp"
+        android:layout_below="@id/tvMobileNumberLabel"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/tvenrollmentnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Enrollment number :  202527112001"
+        android:textSize="18dp"
+        android:layout_below="@id/tvReligionLabel"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/tvemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Enrollment number:"
+        android:textSize="18dp"
+        android:layout_below="@id/tvenrollmentnumber"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/tvemail1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="vedantdeorankar@gmail.com"
+        android:textSize="18dp"
+        android:layout_below="@id/tvemail"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"/>
+
+</RelativeLayout>

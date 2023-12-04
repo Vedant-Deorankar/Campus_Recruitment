@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:background="@drawable/office1">
+
+    <!-- Notifications Container -->
+
+    <RelativeLayout
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#2196F3">
+
+        <!-- Title TextView -->
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="100dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:text="Tips and Tricks"
+            android:textColor="#FAFFFFFF" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/titleBar">
+
+        <LinearLayout
+            android:id="@+id/notificationsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#43E0E0E0"
+            android:padding="16dp"
+            android:layout_marginTop="30dp">
+
+            <!-- Notifications... -->
+            <!-- Notification 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#BFFFFFFF"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Do a thorough research of the Company a candidate wishes to apply for"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="The first step for a candidate in preparing for an interview includes researching about the company he/she wishes to apply for along with discovering the various job positions the company is offering and the specific skill sets it is looking for.
+
+A candidate can check out company’s website or connect with some of its current employees through LinkedIn and get a brief about the company, its work culture, values, growth prospects, etc. Getting an understanding of the kind of candidate it is looking for always helps in figuring out the expected questions that can be asked in the interview and gives a direction to the preparation."
+                    android:textColor="#555555"/>
+            </LinearLayout>
+
+            <!-- Notification 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#BFFFFFFF"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. RESUME – The first impression"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="A resume is the first thing that an employer sees and hence it creates the first impression. Accordingly, it is very crucial to make the resume appealing. It should be made in such a way as to represent the candidate because before the candidate presents himself/herself, the resume will tell a lot about him/her.
+
+Such a resume should summarize a candidate’s professional and academic background. It should include his/her key academic achievements, relevant skills, accomplishments, past work experience, future aspirations, etc. Keeping the resume brief and relevant can avoid any information which may not add value to the job the candidate is seeking."
+                    android:textColor="#555555"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#BFFFFFFF"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Dress to Impress and be Punctual"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="It is said that right impression can be made by dressing for the occasion. A candidate is not going to be tested only on his/her area of expertise but also on how well he/she carries himself/herself, body language and the right attitude. Carrying a formal look with decent and tidy clothing always plays its role.
+
+The candidate maintaining punctuality arriving 15 to 20 minutes before the actual interview time, gets the time needed for related adjustments."
+                    android:textColor="#555555"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#BFFFFFFF"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Confidence is the Key"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="The candidate must not stress out and work on the required communication and other skills. Accordingly, right amount of preparation done before hand will always boost his/her confidence that is one of the most essential ingredients looked for."
+                    android:textColor="#555555"/>
+            </LinearLayout>
+
+            <!-- Notification 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#BFFFFFFF"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5. Prepare for Typical Questions"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Prepare for the niche and technical questions that the interviewer may ask. A candidate must brush up his/her general and technical knowledge before the interview. Preparing in advance for common interview questions such as ‘Why should we hire you’, ‘Tell me about yourself’, ‘What value you can add to the company’, etc. can give a kick-start to the interview and help gain confidence. A candidate should try and come up with honest, simple yet creative answers for such questions."
+                    android:textColor="#555555"/>
+            </LinearLayout>
+
+            <!-- Notification 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#BFFFFFFF"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6. Prepare for Group Discussion and Case Studies"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Some companies that may want to test candidates for leadership skills, ability to put forward points and how they react and work in a group will conduct group discussion rounds or ask case study based questions.
+
+Here, the charm is not how much one speaks but what one speaks. Making relevant and strong points besides framing a proper answer and then presenting it can bring out candidate’s personality. Further, one of the key traits the recruiters look for is team spirit; for which the candidate must ensure that he/she is courteous to others in the group, putting his/her points along with listening to others’ opinion and thereby working towards a common goal/ objective through a healthy discussion."
+                    android:textColor="#555555"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#BFFFFFFF"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7. Mock Interviews"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="A candidate can ask for help from his/her professors, friends and family for mock interviews. He/She can also refer websites like Quora, LinkedIn, etc. where people post their interview experiences. Making a list of probable questions is a good way to prepare for the real interviews. With the help of such mock interviews, a candidate can gauge his/her weaknesses and work on them."
+                    android:textColor="#555555"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#BFFFFFFF"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8. Stay Calm"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Candidates often come across stressful situations during an interview. A rather underrated tip is to develop an understanding of what might stress them out and how they can possibly control it. Interviewers often deliberately create stressful situations in order to test the candidates on their reactions and their approach. Accordingly, trying not to panic and calmly handle the situation is one such intangible trait that plays a major role in cracking interviews."
+                    android:textColor="#555555"/>
+            </LinearLayout>
+
+            <!-- Add more notifications as needed -->
+
+            <!-- Add more notifications as needed -->
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
